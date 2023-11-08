@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			
+/*样式准备第1步： 重新定义部分Html标签的样式*/
+div{ margin:0; padding:0; }
+
+.line{margin: 10px;padding:20px;width: 350px;height: 250px;}
+
+/*样式准备第2步： 定义body默认样式*/
+body{ font-size: 20;}
+
+#toright{float:right; margin-top:5px;}
+
+.title{
+	border-top: 2px solid #eee;
+	border-right: 2px solid #eee;
+	border-left: 2px solid #eee;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.list{
+	/*border-bottom: 2px solid #eee;*/
+	border-left: 2px solid #eee;
+	border-right: 2px solid #eee;
+	border-top: 2px solid #eee;;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+.listdemo{
+	margin-top: 10px;
+}
+.listdemo:hover{
+				color: red;
+			}
+			
+.listtitle{
+	font-weight:bold;
+}
+.listcontent{
+	font-weight: 400;
+}
+
+
+.a1 {
+    border-right: 2px solid #eee ;
+    width: 350px;
+	height: 30px;
+	text-align: center;
+}
+.a3{
+	border-top: 2px solid #eee ;
+	border-left: 2px solid #eee;
+	border-bottom: 2.5px solid #eee;
+	
+	width: 85.5px;
+	height: 26px;
+	float: left;
+	list-style-type: none;
+    text-align: center;
+}
+.a3:hover{
+	border-top: 2px solid blue;		 	 	
+	border-bottom: 0px solid salmon ;
+	font-weight: 600;
+}
+
+		</style>
+	</head>
+	
+	<body>
+		<fieldset class="line">
+			
+			<div class="title">
+		   	    <font size="5"> 商场公告 </font>
+	         	<font id="toright"> <a>更多> </a></font> 
+	   		</div>
+
+	       	<div class="list" >
+	    	  	<div class="listdemo">
+	    	  		<a>
+	    	  		<font class="listtitle">[特惠]</font>
+		     		<font class="listcontent">Apple Watch Series 2新品预约</font>
+	    	  		</a>
+	    	  	</div>
+	    	  	<div class="listdemo">
+	    	  		<a>
+	    	  		<font class="listtitle">[公告]</font>
+		     		<font class="listcontent">浙江地区订单配送可能延迟时</font>
+	    	  		</a>
+	    	  	</div>
+	    	  	<div class="listdemo">
+	    	  		<a>
+	    	  		<font class="listtitle">[特惠]</font>
+		     		<font class="listcontent">LG超级品牌日 满1000减100</font>
+		     		</a>
+	    	  	</div>
+	    	  	<div class="listdemo">
+	    	  		<a>
+	    	  		<font class="listtitle">[公告]</font>
+		     		<font class="listcontent">贵州扶贫馆高原香茗邀你赏</font>
+		     		</a>
+	    	  	</div>
+	    	  	<div class="listdemo">
+	    	  		<a>
+	    	  		<font class="listtitle">[特惠]</font>
+		     		<font class="listcontent">好奇纸尿裤，99元任选3件</font>
+		     		</a>
+	    	  	</div>	    	 
+		   </div>
+		   
+		   <div class="a1">
+                    <font class="a3" ><a>话费</a></font>
+                    <font class="a3" ><a >机票</a></font>
+                    <font class="a3" ><a>电影票</a></font>
+                    <font class="a3" ><a >游戏</a></font>
+            </div>
+		 
+		</fieldset>		
+	</body>
+</html>
